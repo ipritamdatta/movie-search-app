@@ -1,0 +1,37 @@
+.jumbo {
+  background-color: whitesmoke;
+  padding: 5rem;
+}
+.searchInput button {
+  float: right;
+  background-color: transparent;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}
+@media (min-width: 960px) {
+  .formCenter {
+    display: flex;
+    justify-content: center;
+  }
+  .searchInput {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+}
+
+#movies img {
+  width: 15rem;
+  height: 15rem;
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+  #movies .col-xl-3 .col-lg-4 .col-md-4 .col-sm-6 .col-xs-12 img {
+    height: 240px;
+  }
+}
